@@ -15,7 +15,7 @@
 		<PackageId>nventive.NuGet.Downloader.Tool</PackageId>
 		<Authors>nventive</Authors>
 		<Owners>nventive</Owners>
-		<Description>Nuget Dowloader allows to download the NuGet packages found in a solution</Description>
+		<Description>Nuget Downloader allows to download the NuGet packages found in a solution</Description>
 		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
 		<PackageIcon>icon.png</PackageIcon>
 		<PackageProjectUrl>https://github.com/nventive/NuGet.Updater</PackageProjectUrl>
