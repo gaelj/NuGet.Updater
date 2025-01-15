@@ -2,7 +2,7 @@
 
 	<PropertyGroup>
 		<OutputType>Exe</OutputType>
-		<TargetFrameworks>net5.0;net6.0;net7.0</TargetFrameworks>
+		<TargetFrameworks>net9.0</TargetFrameworks>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackAsTool>true</PackAsTool>
 		<ToolCommandName>nugetupdater</ToolCommandName>
@@ -38,11 +38,11 @@
 
 	<ItemGroup>
 		<PackageReference Include="Mono.Options" Version="6.6.0.161" />
-		<PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\NvGet\NvGet.csproj" />
+		<ProjectReference Include="..\NvGet\NvGet.csproj" />
 	</ItemGroup>
 
 	<Import Project="..\NvGet.Tools.Shared\NvGet.Tools.Shared.projitems" Label="Shared" />

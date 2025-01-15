@@ -26,7 +26,7 @@ namespace NvGet.Helpers
 			string solutionPath,
 			FileType fileType,
 			ILogger log,
-			ICollection<(string PropertyName, string PackageId)>? updateProperties = default
+			ICollection<(string PropertyName, string PackageId)> updateProperties = default
 		)
 		{
 			updateProperties ??= Array.Empty<(string PropertyName, string PackageId)>();
