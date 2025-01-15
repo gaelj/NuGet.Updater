@@ -35,5 +35,6 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\NvGet\NvGet.csproj" />
+    <PackageReference Include="NvGet" Version="*" Condition=" '$(ContinuousIntegrationBuild)'=='true' "/>
 	</ItemGroup>
 </Project>
